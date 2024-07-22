@@ -1,40 +1,14 @@
-export const metadata = {
-  title: "Reset Password - Simple",
-  description: "Page description",
-};
+<!DOCTYPE html>
+<html>
 
-export default function ResetPassword() {
-  return (
-    <>
-      <div className="mb-10">
-        <h1 className="text-4xl font-bold">111111244</h1>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <title>我的简单网页2</title>
+</head>
 
-      {/* Form */}
-      <form>
-        <div className="space-y-4">
-          <div>
-            <label
-              className="mb-1 block text-sm font-medium text-gray-700"
-              htmlFor="email"
-            >
-              Email
-            </label>
-            <input
-              id="email"
-              className="form-input w-full py-2"
-              type="email"
-              placeholder="corybarker@email.com"
-              required
-            />
-          </div>
-        </div>
-        <div className="mt-6">
-          <button className="btn w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%]">
-            Reset Password
-          </button>
-        </div>
-      </form>
-    </>
-  );
-}
+<body>
+  <h1>欢迎来到我的网页</h1>
+  <p>这是一些简单的内容。</p>
+</body>
+
+</html>
