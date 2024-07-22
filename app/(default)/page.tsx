@@ -1,22 +1,14 @@
-export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
-};
+<!DOCTYPE html>
+<html>
 
-import Hero from "@/components/hero-home";
-import BusinessCategories from "@/components/business-categories";
-import FeaturesPlanet from "@/components/features-planet";
-import LargeTestimonial from "@/components/large-testimonial";
-import Cta from "@/components/cta";
+<head>
+  <meta charset="UTF-8">
+  <title>我的简单网页</title>
+</head>
 
-export default function Home() {
-  return (
-    <>
-      <Hero />
-      <BusinessCategories />
-      <FeaturesPlanet />
-      <LargeTestimonial />
-      <Cta />
-    </>
-  );
-}
+<body>
+  <h1>欢迎来到我的网页</h1>
+  <p>这是一些简单的内容。</p>
+</body>
+
+</html>
